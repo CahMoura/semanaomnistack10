@@ -1,22 +1,29 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const http = require('http');
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const http = require("http");
 
-const routes = require('./routes');
-const {setupWebsocket} = require('./websocket')
+require("dotenv").config();
+
+const port = process.env.API_PORT || 4000;
+
+const routes = require("./routes");
+const { setupWebsocket } = require("./websocket");
 
 const app = express();
 const server = http.Server(app);
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://Caroline:412893@cluster0-kz9i1.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(
+  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_CLUSTER}.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
-    useCreateIndex: true,
-}); 
+    useCreateIndex: true
+  }
+);
 
 app.use(cors());
 app.use(express.json());
@@ -32,5 +39,6 @@ app.use(routes);
 
 //MongoDB (Banco de Dados Não-relacional)
 
-
-server.listen(3333);
+server.listen(port, () => {
+  console.log("Server Started on port:", port);
+});

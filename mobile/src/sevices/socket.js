@@ -1,34 +1,27 @@
-import socketio from 'socket.io-client';
+import socketio from "socket.io-client";
 
-const socket = socketio('http://192.168.0.104:3333', {
-autoConnect: false,
+const socket = socketio("https://69a44995.ngrok.io", {
+  autoConnect: false
 });
 
 function subscribeToNewDevs(subscribeFunction) {
-    socket.on('new-dev', subscribeFunction);
+  socket.on("new-dev", subscribeFunction);
 }
 
 function connect(latitude, longitude, techs) {
-    socket.io.opts.query = {
-        latitude,
-        longitude,
-        techs,
-    };
+  socket.io.opts.query = {
+    latitude,
+    longitude,
+    techs
+  };
 
-    socket.connect();
+  socket.connect();
 }
 
 function disconnect() {
-    if (socket.connected) {
-        socket.disconnect();
-    }
+  if (socket.connected) {
+    socket.disconnect();
+  }
 }
 
-export {
-    connect,
-    disconnect,
-    subscribeToNewDevs,
-};
-
-
-
+export { connect, disconnect, subscribeToNewDevs };
