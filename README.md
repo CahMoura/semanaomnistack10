@@ -1,5 +1,5 @@
 # &hearts; Semana Omnistack 10
-<img src="github.com/CahMoura/semanaomnistack10/Wallpaper OmniStack 10 - 1920x1080" align="center"></img>
+<img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Wallpaper%20OmniStack%2010%20-%201920x1080.png" align="center"></img>
 
 <h1 align="center">DevRadar</h1>
 <p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a Omnistack da Rocketseat</p>
