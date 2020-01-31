@@ -42,4 +42,13 @@ Foi usado nesse projeto as tecnologias abaixo, junto com o Visual Studio Code e 
 # &phi; Sobre a Semana Omnistack
 
 Desenvolvemos uma aplicação responsiva para Web e um App Mobile usando o Expo, tanto a parte Fontend como Backend. 
+
+<h2 align="center">Versão para Web</h2>
+
+<img src="https://github.com/CahMoura/semanaomnistack10/blob/master/React%20App%20-%20Google%20Chrome%2031_01_2020%2019_28_09.png" align="center"></img>
+
+<h3 align="center">App Mobile</h3>
+<img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200119-233319.png" align="center"></img>
+
+<img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200126-221452.png" align="center"></img>
  
