@@ -51,4 +51,7 @@ Desenvolvemos uma aplicação responsiva para Web e um App Mobile usando o Expo,
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200119-233319.png" align="center"></img>
 
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200126-221452.png" align="center"></img>
+
+## Contribuidor 
+<a href="https://github.com/ribeiroevandro">@ribeiroevandro</a> 👏
  
