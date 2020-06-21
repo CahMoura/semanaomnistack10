@@ -1,8 +1,8 @@
-# &hearts; Semana Omnistack 10
+# &hearts; Week Omnistack 10
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Wallpaper%20OmniStack%2010%20-%201920x1080.png" align="center"></img>
 
 <h1 align="center">DevRadar</h1>
-<p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a Omnistack da Rocketseat</p>
+<p align="center">Project <strong>DevRadar</strong> developed Omnistack Week of Rocketseat</p>
 
 <p align="center">
   <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
@@ -22,9 +22,9 @@
   </a>
 </p>
 
-# &spades; Tecnologias 
+# &spades; Technologies
 
-Foi usado nesse projeto as tecnologias abaixo, junto com o Visual Studio Code e o Git:
+The following technologies were used in this project:
 
 - Node.js
 - React
@@ -34,16 +34,16 @@ Foi usado nesse projeto as tecnologias abaixo, junto com o Visual Studio Code e 
 - Yarn
 - Insomnia
 
-# &clubs; Projeto
+# &clubs; Project
 
- O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias. - 
+ DevRadar is a project that aims to connect developers close to you who work with the same technologies. - 
 <a href="https://github.com/Rocketseat/semana-omnistack-10">@rocketseat </a>
 
-# &phi; Sobre a Semana Omnistack
+# &phi; About the Omnistack Week 10
 
-Desenvolvemos uma aplicação responsiva para Web e um App Mobile usando o Expo, tanto a parte Fontend como Backend. 
+We developed a responsive web application and a Mobile App using Expo, both the Fontend and Backend part.
 
-<h2 align="center">Versão para Web</h2>
+<h2 align="center">Version to Web</h2>
 
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/React%20App%20-%20Google%20Chrome%2031_01_2020%2019_28_09.png" align="center"></img>
 
@@ -51,4 +51,7 @@ Desenvolvemos uma aplicação responsiva para Web e um App Mobile usando o Expo,
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200119-233319.png" align="center"></img>
 
 <img src="https://github.com/CahMoura/semanaomnistack10/blob/master/Screenshot_20200126-221452.png" align="center"></img>
+
+## Contribuidor 
+<a href="https://github.com/ribeiroevandro">@ribeiroevandro</a> 👏
  
